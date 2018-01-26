@@ -1,0 +1,19 @@
+{
+  "name": "grenadine2konopas",
+  "version": "0.1.0",
+  "description": "Scripts for retrieving Konopas data from the public Grenadine API",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcdemarco/grenadine2konopas.git"
+  },
+  "keywords": [
+    "json"
+  ],
+  "author": "M. C. DeMarco <mcd@mcdemarco.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcdemarco/grenadine2konopas/issues"
+  }
+}
