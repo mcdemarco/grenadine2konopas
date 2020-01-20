@@ -16,9 +16,9 @@ tgfp="/home/hosting/public_html/schedule.arisia.org/data/people.js"
 tm="$gt.$ts"
 tmp="$gtp.$ts"
 
-# The underscore-to-hyphen may not be a permanent change.
-grenadine_prog_url="https://boskone.grenadine.co:443/en/boskone-55/program.json?scale=2.0"
-grenadine_peep_url="https://boskone.grenadine.co:443/en/boskone-55/program/participants.json?scale=2.0"
+# The Grenadine JSON API url seems to have gotten a bit simpler.
+grenadine_prog_url="https://boskone.grenadine.co/en/boskone57/program.json?scale=2.0"
+grenadine_peep_url="https://boskone.grenadine.co/en/boskone57/program/participants.json?scale=2.0"
 
 #Kindly hosted by Arisia
 cd /home/hosting/zambia_scripts/nesfa

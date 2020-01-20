@@ -13,9 +13,9 @@ tgtp="data/people.js"
 tm="$tgt.$ts"
 tmp="$tgtp.$ts"
 
-# Converted files kindly hosted by Arisia.
-remote_prog_url="https://schedule.arisia.org/data/program.js"
-remote_peep_url="https://schedule.arisia.org/data/people.js"
+# Converted files kindly hosted by DisCon 3.
+remote_prog_url="https://zambia.discon3.org/data/program.js"
+remote_peep_url="https://zambia.discon3.org/data/people.js"
 
 cd /home/nesfa/konopas/
 
