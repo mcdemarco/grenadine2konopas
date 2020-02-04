@@ -20,8 +20,8 @@ tmp="$gtp.$ts"
 grenadine_prog_url="https://boskone.grenadine.co/en/boskone57/program.json?scale=2.0"
 grenadine_peep_url="https://boskone.grenadine.co/en/boskone57/program/participants.json?scale=2.0"
 
-#Kindly hosted by Arisia
-cd /home/hosting/zambia_scripts/nesfa
+#Kindly hosted by Discon 3
+cd ~
 
 curl "$grenadine_prog_url" > "$tm" 2>/dev/null
 curl "$grenadine_peep_url" > "$tmp" 2>/dev/null
@@ -31,8 +31,8 @@ then
 	cp "$tm" "$gt"
 	cp "$tmp" "$gtp"
 	# run the conversion now; the scripts should be in the same directory
-	/opt/nodejs/bin/node program2program.js
-	/opt/nodejs/bin/node participants2people.js
+	~/.nvm/versions/node/v13.7.0/bin/node program2program.js
+	~/.nvm/versions/node/v13.7.0/bin/node participants2people.js
 	# don't try to update the manifest; it's elsewhere.
 #	d=`date`
 #	sed -i "s/^# .*/# $d/" $cm 2>/dev/null
