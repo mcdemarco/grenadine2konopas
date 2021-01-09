@@ -4,7 +4,7 @@ var data = require('./participants.json');
 var imgURL = "https://cust-images.grenadine.co/grenadine/image/upload/";
 //Grenadine knows these are suffixes but it mashes them into the name anyway, 
 //so we have to parse them out again.
-var suffixes = ["FN","RN","PhD","Ph.D.","JR","Jr","Jr.","Sr."];
+var suffixes = ["FN","RN","PhD","Ph.D.","M.D.","JR","Jr","Jr.","Sr.","M.Ed.","SJ","(she/her/hers)"];
 
 var out = [];
 
@@ -12,7 +12,7 @@ for (var d=0; d<data.length; d++) {
 	var datum = data[d];
 
 	//It's all in the name.
-	var prefix = datum.prefix;
+	var prefix = datum.prefix || "";
 	var suffix = "";
 	var lastName = "";
 
